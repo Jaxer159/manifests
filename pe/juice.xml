@@ -9,7 +9,7 @@
 
 
     <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="profile" revision="pe_temporary" clone-depth="1" />
-    <project path="vendor/xiaomi/juice" name="propriatery_vendor_xiaomi_juice" remote="profile" revision="main" clone-depth="1" />
+    <project path="vendor/xiaomi/juice" name="proprietary_vendor_xiaomi_juice" remote="profile" revision="main" clone-depth="1" />
     <project path="kernel/xiaomi/juice" name="kernel_xiaomi_juice" remote="xtended" revision="xtended" clone-depth="1" />
 
 </manifest>
