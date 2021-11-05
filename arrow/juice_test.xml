@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Available remotes -->
+    <remote name="profile"
+                fetch="https://github.com/Jaxer159" />
+    <remote name="w"
+    	        fetch="https://github.com/wyrgb" />
+    <remote name="storm"
+              fetch="https://github.com/stormbreaker-project" />
+
+
+    <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="profile" revision="arrow_test" clone-depth="1" />
+    <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="w" revision="11" clone-depth="1" />
+    <project path="kernel/xiaomi/juice" name="kernel_poco_citrus" remote="storm" revision="main" clone-depth="1" />
+
+</manifest>
