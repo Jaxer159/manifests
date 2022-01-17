@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remote -->
+        <remote name="shelby" fetch="https://github.com/ShelbyJunk" />
+	<remote name="profile" fetch="https://github.com/Jaxer159" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="profile" revision="a11/aosp" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="shelby" revision="11" clone-depth="1" />
+
+</manifest>
