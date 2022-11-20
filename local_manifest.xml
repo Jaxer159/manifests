@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Available remotes -->
+    <remote name="profile"
+                fetch="https://github.com/Jaxer159" />
+
+    <remote name="ChimeOSS"
+                fetch="https://github.com/ChimeOSS" />
+
+
+    <project path="device/xiaomi/chime" name="android_device_xiaomi_chime" remote="profile" revision="a13/arrow" clone-depth="1" />
+    <project path="vendor/xiaomi/chime" name="proprietary_vendor_xiaomi_chime" remote="profile" revision="a13" clone-depth="1" />
+    <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="ChimeOSS" revision="lineage-19.1" clone-depth="1" />
+
+</manifest>
